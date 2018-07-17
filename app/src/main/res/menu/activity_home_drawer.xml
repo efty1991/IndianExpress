@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/homefeeds"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home Feeds" />
+        <item
+            android:id="@+id/bookmark"
+            android:icon="@drawable/ic_bookmark_black_24dp"
+            android:title="Bookmark" />
+    </group>
+
+</menu>
